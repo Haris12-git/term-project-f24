@@ -1,0 +1,15 @@
+{
+    "rules": {
+      "indentation": 2,
+      "max-empty-lines": 1,
+      "color-hex-case": "lower",
+      "color-hex-length": "short",
+      "font-family-no-duplicate-names": true,
+      "block-no-empty": true,
+      "unit-no-unknown": true,
+      "selector-no-id": true,
+      "declaration-colon-space-after": "always",
+      "property-no-unknown": true
+    }
+  }
+  
