@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Contact Us</title>
-  <link rel="stylesheet" href="../styles/contactUs.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Us">
+    <meta name="author" content="Junaid">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../styles/contactUs.css">
 </head>
 <body>
-  <header class="header">
-    <h1>Contact Us</h1>
-  </header>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <main>
+        <section id="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
-  <main class="main-content">
-    <form class="contact-form" method="post">
-      <div class="form-group">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-      </div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-      <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-      </div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
 
-      <div class="form-group">
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-      </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
 
-      <button type="submit" class="button">Send Message</button>
-    </form>
-  </main>
-
-  <footer class="footer">
-    <p>&copy; 2023 Blogang. All rights reserved.</p>
-  </footer>
+        <section id="contact-details">
+            <h2>Our Contact Details</h2>
+            <p><strong>Address:</strong> Johar town, Lahore, Pakistan</p>
+            <p><strong>Email:</strong> contact@blogang.com</p>
+            <p><strong>Phone:</strong> +92 3214143567</p>
+            <p><strong>Working Hours:</strong> Monday - Friday: 9 AM - 6 PM</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 BLOGANG. All rights reserved.</p>
+    </footer>
 </body>
 </html>
