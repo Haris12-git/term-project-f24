@@ -1,3 +1,4 @@
+* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +11,7 @@ body {
     color: #333;
 }
 
+/* Header */
 header {
     background-color: #222;
     color: white;
@@ -30,14 +32,16 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 700;
 }
 
+/* Sections */
 section {
     padding: 50px;
     text-align: center;
 }
 
+/* Portfolio Grid */
 .portfolio-grid {
     display: flex;
     justify-content: center;
@@ -58,6 +62,7 @@ section {
     border-radius: 8px;
 }
 
+/* Footer */
 footer {
     background: #222;
     color: white;
